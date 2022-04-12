@@ -24,9 +24,6 @@ def destroy(index):
 def list_all_items():
     # List all items code here
 
-def mark_completed(index):
-    # Your code here
-
 def user_input(prompt):
     # Get user input here
 
