@@ -21,6 +21,9 @@ def update(index, item):
 def destroy(index):
     # Destroy code here
 
+def mark_completed(index):
+    # Add code here that marks an item as completed
+
 def list_all_items():
     # List all items code here
 
