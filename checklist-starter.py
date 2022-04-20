@@ -33,6 +33,11 @@ def user_input(prompt):
 def select(function_code):
     # User Selection Code here
 
+    # Create item example
+    if function_code == "C":
+        input_item = user_input("Input item:")
+        create(input_item)
+
 running = True
 
 while running:
