@@ -16,3 +16,10 @@ print(f"{years_at_hth} is a {type(years_at_hth)}")
 print(f"{plays_basketball} is a {type(plays_basketball)}")
 print(f"{jersey_number} is a {type(jersey_number)}")
 print(f"{car_name[-1]} is a {type(car_name[-1])}")
+
+type_dictionary = {}
+
+for car in car_name:
+    type_dictionary[car] = type(car)
+
+print(type_dictionary)
