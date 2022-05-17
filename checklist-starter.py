@@ -39,15 +39,34 @@ def mark_completed(index):
     if "*" not in checklist[index]:
         checklist[index] = f'[*] {checklist[index]}'
 
-    return print(f"{checklist[index]} was marked completed")
+        return print(f"{checklist[index]} was marked completed")
+        
+    else:
+        
+        return print(f"That item was marked completed already")
+
+    
 
 def list_all_items():
     # List all items code here
-    for item in checklist:
-        if "*" not in item:
-            print(item)
 
-    return print(f'{checklist} only non-starred items returned')
+    completed = 0
+    incomplete = []
+
+    for item in checklist:
+
+        if "*" not in item:
+            incomplete.append(item)
+            
+        else:
+            completed += 1
+
+    for ele in incomplete:
+        print(ele)
+    
+    return print(f'\n{completed} tasks have been finished already')
+
+    
 
 def select(function_code):
     # User Selection Code here
