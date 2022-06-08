@@ -153,14 +153,3 @@ class Team:
                 battling = False
 
 # Calls and variables used for Testing Below
-
-# team = Team("Team 1")
-# team2 = Team("Team 2")
-
-# team.add_hero(hero, hero2)
-# team2.add_hero(hero3, hero4)
-# team.attack(team2)
-# team.revive_team()
-# team2.revive_team()
-# team2.attack(team)
-        

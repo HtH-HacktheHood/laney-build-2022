@@ -201,30 +201,3 @@ class Hero:
 
                 print(message)
                 return winner
-
-# Calls and variables used for Testing Below
-
-# hero = Hero()
-# hero2 = Hero("Henry")
-# hero3 = Hero("Lee")
-# hero4 = Hero("Bowe")
-# ability = Ability("Coding")
-# ability2 = Ability("Testing")
-# armor = Armor("Helmet")
-# armor2 = Armor("Chestplate")
-# weapon = Weapon("Sword")
-# weapon2 = Weapon("Spear")
-
-# hero.add_abilities(ability, ability2)
-# hero2.add_abilities(ability, ability2)
-# hero3.add_abilities(ability, ability2)
-# hero4.add_abilities(ability, ability2)
-# hero.add_armors(armor, armor2)
-# hero2.add_armors(armor, armor2)
-# hero3.add_armors(armor, armor2)
-# hero4.add_armors(armor, armor2)
-# hero.add_weapons(weapon, weapon2)
-# hero2.add_weapons(weapon, weapon2)
-# hero3.add_weapons(weapon, weapon2)
-# hero4.add_weapons(weapon, weapon2)
-# hero.battle(hero2)

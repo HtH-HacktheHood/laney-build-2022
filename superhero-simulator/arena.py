@@ -1,4 +1,6 @@
 from unicodedata import name
+
+from prompt_toolkit import prompt
 from ability import *
 from weapon import *
 from armor import *
@@ -15,6 +17,35 @@ class Arena:
 
     def __repr__(self) -> str:
         return f"Battle Simulator Arena"
+
+    def edit_helper(self, prompt, mode):
+        if mode == "s":
+            editing = True
+            
+            while editing:
+                user_input = input(prompt)
+
+                if user_input.isdigit():
+                    print("Please enter a string (a word) for this input")
+                    continue
+
+                editing = False
+
+            return user_input
+
+        elif mode == "i":
+            editing = True
+            
+            while editing:
+                user_input = input(prompt)
+
+                if not user_input.isdigit():
+                    print("Please enter an integer (a number) for this input")
+                    continue
+
+                editing = False
+            
+            return user_input
 
     def create_ability(self, num):
         ''' Prompt for Ability information. return Ability with values from user Input. This method will allow a user to create an ability. Prompt the user for the necessary information to create a new ability object.
@@ -47,11 +78,9 @@ class Arena:
         ''' Prompt user for Hero information. return Hero with values from user input. This method will allow a user to create a hero. Prompt the user for the necessary information to create a new hero object and equip any weapons, armors or abilities.
         '''
 
-        hero_name = input(f"\nHero #{num + 1}'s name:  ")
-        hero_health = input(f"{hero_name}'s health (Enter a number, try 1000 for a default value):  ")
-
+        hero_name = self.edit_helper(f"\nHero #{num + 1}'s name:  ", "s")
+        hero_health = self.edit_helper(f"\n{hero_name}'s health (Enter a number, try 1000 for a default value):  ", "i")
         hero = Hero(hero_name, int(hero_health))
-
         add_item = None
 
         while add_item != "4":
