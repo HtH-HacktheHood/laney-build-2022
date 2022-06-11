@@ -2,10 +2,12 @@
 
 Given the fast pace that much of our society moves at today, not many people are being mindful of their sleeping habits. There are countless studies and technologies focused on the relationship between sleep and other parts of our health. One major topic is the analysis of physiological changes that occur while sleeping. The "SayoPillow.csv" dataset highlights various parameters such as the sleeper's snoring range, respiration rate, body temperature, limb movements, blood oxygen levels, eye movements, sleep duration, heart rate and stress levels. 
 
-If you are using this dataset or found any of this information contributing towards your research, please cite:
+“ If you are using this dataset or found any of this information contributing towards your research, please cite:
 
-L. Rachakonda, A. K. Bapatla, S. P. Mohanty, and E. Kougianos, “SaYoPillow: Blockchain-Integrated Privacy-Assured IoMT Framework for Stress Management Considering Sleeping Habits”, IEEE Transactions on Consumer Electronics (TCE), Vol. 67, No. 1, Feb 2021, pp. 20-29.
-L. Rachakonda, S. P. Mohanty, E. Kougianos, K. Karunakaran, and M. Ganapathiraju, “Smart-Pillow: An IoT based Device for Stress Detection Considering Sleeping Habits”, in Proceedings of the 4th IEEE International Symposium on Smart Electronic Systems (iSES), 2018, pp. 161--166.
+L. Rachakonda, A. K. Bapatla, S. P. Mohanty, and E. Kougianos, “SaYoPillow: Blockchain-Integrated Privacy-Assured IoMT Framework for Stress Management Considering Sleeping Habits”, IEEE Transactions on Consumer Electronics (TCE), Vol. 67, No. 1, Feb 2021, pp. 20-29. 
+
+L. Rachakonda, S. P. Mohanty, E. Kougianos, K. Karunakaran, and M. Ganapathiraju, “Smart-Pillow: An IoT based Device for Stress Detection Considering Sleeping Habits”, in Proceedings of the 4th IEEE International Symposium on Smart Electronic Systems (iSES), 2018, pp. 161--166. “
+
 
 # Why am I interested ...
 
