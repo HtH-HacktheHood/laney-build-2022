@@ -15,3 +15,7 @@ I have always personally struggled with maintaining proper sleeping habits. Most
 
 # We need to have ten questions we want to answer during our data analysis
 
+1 | How do stress level impact sleeping hours? Is there a positive or negative correlation? Meaning, if my stress levels are high, do I sleep more or less?
+2 | Does a higher heart rate cause more limb and eye movement or do the movements cause the increase in heart rate?
+3 | How are snoring and respiration rates related, if at all? Do these features have any affect on blood oxygen levels?
+4 | 
