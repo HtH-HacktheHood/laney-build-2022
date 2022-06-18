@@ -119,7 +119,7 @@ class Arena:
         number_on_team = int(input(f"\nHow many members would you like on {name_of_team}?:\n"))
 
         for i in range(number_on_team):
-            hero = self.create_hero()
+            hero = self.create_hero(i)
             self.team_one.add_hero(hero)
 
         message = f"Team One: {name_of_team} has been created!"
@@ -137,7 +137,7 @@ class Arena:
         number_on_team = int(input(f"\nHow many members would you like on {name_of_team}?:\n"))
 
         for i in range(number_on_team):
-            hero = self.create_hero()
+            hero = self.create_hero(i)
             self.team_two.add_hero(hero)
 
         message = f"Team Two: {name_of_team} has been created!"
